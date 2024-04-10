@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor0: #4BA1DE;
+    --cor1: #534BDE;
+    --cor2: #4B72DE;
+    --cor3: #4BCFDE;
+    --cor4: #834BDE;
+    --cor5: #D1D5E0;
+
+    --fonte-padrao: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: var(--cor0);
+    color: white;
+    font-family: var(--fonte-padrao)
+}
