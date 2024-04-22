@@ -16,7 +16,7 @@
     --fonte-padrao: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-body {
+body, main {
     background-color: var(--cor3);
     color: white;
     font-family: var(--fonte-padrao)
@@ -50,4 +50,25 @@ nav > a {
 
 nav > a:hover {
     background-color: var(--cor0);
+}
+
+section#moti {
+    background-color: yellow;
+}
+
+section#apre {
+    background-color: green;
+}
+
+section#prof {
+    background-color: orange;
+}
+
+section#dep {
+    background-color: lightblue;
+}
+
+footer {
+    text-align: center;
+    height: 0.8em;
 }
