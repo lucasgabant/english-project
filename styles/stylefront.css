@@ -52,8 +52,20 @@ nav > a:hover {
     background-color: var(--cor0);
 }
 
+article {
+    min-width: 300px;
+    max-width: 1200px;
+    padding: 0px 20px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
 section#moti {
-    background-color: yellow;
+    background-image: url(../imagens/english.jpg);
+}
+
+section#moti > p {
+background-image: rgb(0,0,0);
 }
 
 section#apre {
