@@ -52,6 +52,23 @@ nav > a:hover {
     background-color: var(--cor0);
 }
 
+/* main section {
+
+} */
+
+main h2 {
+    padding: 10px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.450), transparent);
+    font-size: 1.5em;
+}
+
+main p {
+    text-align:justify;
+    text-indent: 30px;
+    line-height: 2em;
+    font-size: 1em;
+}
+
 article {
     min-width: 300px;
     max-width: 1200px;
@@ -62,6 +79,7 @@ article {
 
 section#moti {
     background-image: url(../imagens/english.jpg);
+    padding: auto;
 }
 
 section#moti > p {
