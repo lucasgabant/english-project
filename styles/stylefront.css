@@ -81,6 +81,7 @@ article {
 section#moti {
     background-image: url(../imagens/english.jpg);
     padding: auto;
+    background-position: center center;
 }
 
 section#apre {
@@ -99,7 +100,7 @@ section#dep {
 
 footer {
     background-color: var(--cor6);
-    padding: 5px;
+    padding: 8px;
     color: white;
     text-align: center;
     height: 0.8em;
