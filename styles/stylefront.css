@@ -12,6 +12,7 @@
     --cor3: #4BCFDE;
     --cor4: #834BDE;
     --cor5: #D1D5E0;
+    --cor6: #030128;
 
     --fonte-padrao: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -82,12 +83,10 @@ section#moti {
     padding: auto;
 }
 
-section#moti > p {
-background-image: rgb(0,0,0);
-}
-
 section#apre {
-    background-color: green;
+    background-image: url(../imagens/talkingnew.jpeg);
+    padding: auto;
+    color: var(--cor6);
 }
 
 section#prof {
@@ -99,6 +98,9 @@ section#dep {
 }
 
 footer {
+    background-color: var(--cor6);
+    padding: 5px;
+    color: white;
     text-align: center;
     height: 0.8em;
 }
