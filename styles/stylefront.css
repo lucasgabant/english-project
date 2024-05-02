@@ -64,6 +64,10 @@ main h2 {
 }
 
 main p {
+    padding-top: 1vh;
+    padding-bottom: 2vh;
+    padding-left: 4vh;
+    padding-right: 2vh;
     text-align:justify;
     text-indent: 30px;
     line-height: 2em;
@@ -73,19 +77,18 @@ main p {
 article {
     min-width: 300px;
     max-width: 1200px;
-    padding: 0px 20px;
     margin: auto;
     margin-bottom: 30px;
 }
 
 section#moti {
-    background-image: url(../imagens/english.jpg);
+    background-color: darkblue;
     padding: auto;
     background-position: center center;
 }
 
 section#apre {
-    background-image: url(../imagens/talkingnew.jpeg);
+    background-color: white;
     padding: auto;
     color: var(--cor6);
 }
